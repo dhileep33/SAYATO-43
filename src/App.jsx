@@ -25,6 +25,7 @@ const App = () => {
 
 
         <Routes>
+           <Route path='/' element={<SA cart={cart} setCart={setCart} />} />
            <Route path='/H' element={<SA cart={cart} setCart={setCart} />} />
           <Route path="/b" element={<BR  cart={cart} setCart={setCart}/>} />
           <Route path="/l" element={<Lunch cart={cart} setCart={setCart} />} />
