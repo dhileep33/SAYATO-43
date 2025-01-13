@@ -1,0 +1,125 @@
+/* Cart Page CSS */
+
+/* General container */
+.cart-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Header section */
+  .contact-bar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .contact-info {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Empty cart alert */
+  .cart-alert {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .cart-alert h1 {
+    font-size: 2rem;
+    color: #555;
+  }
+  
+  /* Cart items */
+  .cart-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-card img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .cart-card .btn {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  .btn {
+    cursor: pointer;
+  }
+  
+  .btn-outline-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-outline-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Quantity controls */
+  .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Total section */
+  .text-center h5 {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

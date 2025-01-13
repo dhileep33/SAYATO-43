@@ -1,0 +1,60 @@
+/* General styles */
+.text-center {
+  text-align: center;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Card Styles */
+.card {
+  width: 18em;
+  margin: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .card {
+    width: 107% !important;
+    margin: 25px 0 !important;
+
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .card {
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .card {
+    width: 100% !important;
+    margin: 7% !important;
+  }
+}
+
+@media (min-width: 993px) {
+  .card {
+    width: 100% !important;
+    margin: 5% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .bf {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+
+  }
+  
+}
+
+.bf {
+ 
+  letter-spacing: 2px;
+
+}

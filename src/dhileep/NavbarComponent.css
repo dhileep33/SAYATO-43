@@ -1,0 +1,64 @@
+.contact-bar {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .contact-bar .contact-info, 
+  .contact-bar .social-links {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .contact-info{
+    font-size: 0.900rem;
+    letter-spacing:2px ;
+  }
+  .contact-bar a {
+    text-decoration: none;
+  }
+  
+
+  
+  .navbar-brand img {
+    width: 60px;
+    height: auto;
+   
+  }
+
+  .navl {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     flex-direction: row;
+     gap: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 576px) {
+    .contact-bar {
+      font-size: 0.75rem;
+    }
+  
+    
+    .navbar-brand span {
+      display: none; /* Hide the text next to logo on mobile */
+    }
+  
+    .highlighted-link {
+      padding: 3px 8px;
+    }
+  }
+  .navl {
+    margin-left: 30px;
+    
+  } 
+  .navl:hover {
+cursor: pointer;
+
+  }
